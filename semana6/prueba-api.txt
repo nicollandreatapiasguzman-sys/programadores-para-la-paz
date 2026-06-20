@@ -1,0 +1,10 @@
+Al enviar una petición POST a la ruta http://localhost:3000/registro con el JSON de prueba, el servidor responde con un objeto JSON que confirma la recepción. 
+
+La respuesta exacta devuelta por el servidor es:
+{
+  "estado": "Datos recibidos",
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+
+Esto ocurre porque el servidor lee las propiedades mediante 'req.body' y las organiza en una nueva estructura estructurada de respuesta.
