@@ -1,0 +1,6 @@
+1. Proteger contraseñas
+2. No compartir credenciales
+3. Mantener software actualizado
+1. Proteger contraseñas mediante el uso de claves robustas y gestores seguros.
+2. No compartir credenciales ni claves de acceso a los servidores o repositorios.
+3. Mantener el software y el sistema operativo completamente actualizados.

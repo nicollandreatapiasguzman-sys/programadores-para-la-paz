@@ -1,0 +1,5 @@
+1. No exponer datos personales ni información sensible de los miembros de la comunidad en espacios públicos.
+2. Proteger credenciales y llaves de acceso mediante políticas de contraseñas fuertes para los administradores.
+3. Usar conexiones seguras y cifradas (como protocolos HTTPS y SSH) para transferir cualquier información.
+4. Registrar los accesos y auditorías del sistema para detectar ingresos no autorizados a tiempo.
+5. Limitar el acceso a información sensible, permitiendo que cada usuario vea solo lo necesario para su rol.
