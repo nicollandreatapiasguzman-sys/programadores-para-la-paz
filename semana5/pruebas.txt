@@ -1,0 +1,8 @@
+Ruta: http://localhost:3000
+Resultado: El navegador muestra el texto "Servidor activo". Es la ruta raíz principal del servidor.
+
+Ruta: http://localhost:3000/saludo
+Resultado: El navegador muestra el texto "Hola comunidad". Es una ruta estática específica.
+
+Ruta: http://localhost:3000/mensaje/juan
+Resultado: El navegador muestra "Hola juan". Es una ruta dinámica que toma el nombre que escribamos en la URL como un parámetro (:nombre) y lo saluda de forma personalizada.
