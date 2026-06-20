@@ -1,0 +1,12 @@
+Al consultar la ruta GET http://localhost:3000/reportes después de haber enviado datos con POST, el servidor devuelve un arreglo JSON que contiene todos los objetos registrados en la memoria de manera acumulativa.
+
+La respuesta esperada muestra la lista estructurada con los IDs generados automáticamente:
+[
+  {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+]
+
+Si el servidor se detiene y se vuelve a iniciar, al consultar esta misma ruta GET la respuesta será un arreglo vacío [], debido a que los datos se almacenan temporalmente en la memoria RAM del sistema y no en una base de datos persistente.
